@@ -1,4 +1,4 @@
-// Chapter 1 "ALERTS"
+//                  Chapter 1 "ALERTS"
 
 // Question 1 Write a script to greet your website visitor using JS alert box.
 
@@ -23,7 +23,7 @@ alert("Prevent this page from creating additional dailoge.");
 console.log("Hello... I can run JS through my web browser's console");
 
 
-// chapter 2  "VARIABLES FOR STRINGS"
+//                Chapter 2  "VARIABLES FOR STRINGS"
 
 // Question 1. Declare a variable called username.
 
@@ -92,7 +92,7 @@ alert(pattern);
 
 
 
-// chapter 3 "VARIABLES FOR NUMBERS"
+//           Chapter 3 "VARIABLES FOR NUMBERS"
 
 
 //Question 1. Declare a variable called age & assign to it your age. Show your age in an alert box.
@@ -122,10 +122,32 @@ document.write(yearOfBirth);
 // Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
 
 
-var customerName = (" John Doe")
+var customerName = ("</br> John Doe")
 var order = ("ordered 5 T-shirts on XYZ Clothing store")
 
-var customerData = (customerName+ "" + "" + order)
+var customerData = (customerName+ " " + " " + order)
 document.write(customerData)
 
 
+//      Chapter 4 "VARIABLE NAMES: LEGAL & ILLEGAL"
+
+
+// Question 1. Declare 3 variables in one statement.
+//          2. Declare 5 legal & 5 illegal variable names.
+//          3. Display this in your browser
+///         a) A heading stating “Rules for naming JS variables”
+//          b) Variable names can only contain ______, ______,______ and ______.For example $my_1stVariable
+//          c) Variables must begin with a ______, ______ or_____. For example $name, _name or name
+//          d) Variable names are case _________
+//          e) Variable names should not be JS _________
+
+
+
+var variableRule = (" Rule for naming variables ");
+var $nameVariables = ("Variable names can only contain Numbers,$ and_.For example $my_1stVariable");
+var second_variable = ("Variables must begin with a letter, $or _. For example $name, _name or name </br> Variable names are case sensitive </br> Variable names should not be JS keywords");
+
+
+document.getElementById("me").innerHTML = variableRule;
+document.getElementById("disply").innerHTML = $nameVariables;
+document.getElementById("disply1").innerHTML = second_variable;
